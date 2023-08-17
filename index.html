@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+  <title>DogLife</title>
+</head>
+
+<body id="page-body">
+  <!-- navbar start -->
+  <navbar class="navbar  navbar-expand-lg fixed-top bg-light " id="mainNavbar">
+    <div class="container">
+      <a href="#page-body" class="navbar-brand  text-black" title="DogLife webiste link"><span
+          class="fw-bold">Dog</span>Life.</a>
+      <button type="button" class="navbar-toggler " data-bs-toggle="offcanvas" data-bs-target="#myNavbar"
+        aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title">Menü</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="kapat"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto  py-lg-2">
+            <li class="nav-item"><a href="#home" class="nav-link btn-close-canvas active">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link btn-close-canvas">About</a></li>
+            <li class="nav-item"><a href="#doctor" class="nav-link btn-close-canvas">Doctor</a></li>
+            <li class="nav-item"><a href="#pricing" class="nav-link btn-close-canvas">Pricing</a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link btn-close-canvas">Blog</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link btn-close-canvas">Services</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link btn-close-canvas">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </navbar>
+  <!-- navbar end -->
+  <!-- home start -->
+  <section class="mySection bg-body-tertiary home show-animate " id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 firstOne revealLeft">
+          <h1 class="text-uppercase loveDogs">We love dogs </h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio, laborum dolorum fugiat sunt.</p>
+          <button class="rounded-5 mt-2"><a class="text-decoration-none text-white" href="#">Get In Touch</a></button>
+        </div>
+
+        <div class="col-md-6 images revealRight">
+          <img src="img/dog_1.jpg" class="img-fluid img1" alt="Köpek Fotoğrafı">
+          <img src="img/dog_2.jpg" class="img-fluid img2" alt="Köpek Fotoğrafı">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home end -->
+  <!-- about start -->
+  <section class="mySection bg-white p-0 mt-5" id="about">
+    <div class="container">
+      <div class="row about">
+        <div class="col-12">
+          <h2 class="text-center revealh2Top">WELCOME TO OUR WEBSITE</h2>
+          <p class="text-center revealpTop">Far far away, behind the word mountains, far from the countries Vokalia and
+            Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5 content">
+      <div class="col-12">
+      <div class="row">
+            <div class="col-lg-6 order-lg-2">
+              <img src="img/dog_3.jpg" class="img-fluid dog-3 revealRight" alt="">
+            </div>
+            <div class="col-lg-6 order-md-1">
+           <div class="leftSide revealLeft">
+            <h2 class="fw-normal sideHeading">Happy Pets</h2>
+            <p class="m-0">Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the
+              coast of the Semantics, a large language ocean.</p>
+            <button class="rounded-5 mt-4"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-12">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <img src="img/dog_4.jpg" class="dog-4 img-fluid revealLeft" alt="köprek resmi ">
+        </div>
+        <div class="col-lg-6 ">
+          <div class="rigthSide revealRight">
+            <h2 class="fw-normal sideHeading">Modern Equipment</h2>
+            <p class="m-0 rightP">Far far away, behind the word mountains, Separated they live in Bookmarksgrove right
+              at the coast of the Semantics, a large language ocean.</p>
+            <button class="rounded-5 mt-4"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- about end -->
+  <!-- doctor start -->
+  <section class="mySection bg-body-tertiary p-0 mt-5" id="doctor">
+    <div class="container">
+      <div class="row doctor">
+        <div class="col-md-6">
+          <img src="img/dog_doctor.jpg" class="img-fluid doctor-img revealLeft" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="rigthSideDoctor revealRight">
+            <h2 class="fw-normal">Meet <strong>Jean Smith</strong> Our Dog <br> Veterenarian</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet praesentium tenetur quos eius
+              asperiores incidunt reprehenderit hic labore? Officiis enim laborum facere iure voluptatem autem veritatis
+              cupiditate magnam saepe. <br><br>
+              Nulla, beatae ducimus? Dolor distinctio tempore hic consequatur, magni consectetur possimus tenetur eius,
+              placeat, eveniet facilis perferendis vitae deleniti incidunt! Incidunt, illum eum? Suscipit aliquid
+              consequatur repudiandae doloremque est nisi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- doctor end -->
+  <!-- Pricing table start -->
+  <section class="mySection bg-white mt-5" id="pricing">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-12 pricingTitle revealh2Top">
+          <h2 class="text-center text-uppercase fw-bold ">Pricing Table</h2>
+          <p class="text-center revealpTop">Far far away, behind the word mountains, far from the countries Vokalia and
+            Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="row pricingContainer">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4  p-md-5 basic revealLeftPricing">
+          <div class="pricing">
+            <span class="icon-paw text-center d-block display-5 text-white mb-2"><img src="img/dog-paw.png"
+                alt="köpek patisi"></span>
+            <h3 class="text-center text-white pb text-uppercase">Basic</h3>
+            <div class="price text-center mb-4 ">
+              <span class="text-white"><span class="priceContent">$50</span> / year</span>
+            </div>
+            <ul class="list-unstyled ul-check text-white success mb-5">
+              <li><i class="bi bi-check2"></i>Officia quaerat eaque neque</li>
+              <li><i class="bi bi-check2"></i>Possimus aut consequuntur incidunt</li>
+              <li class="remove"><i class="bi bi-check2"></i>Lorem ipsum dolor sit amet</li>
+              <li class="remove"><i class="bi bi-check2"></i>Consectetur adipisicing elit</li>
+              <li class="remove"><i class="bi bi-check2"></i>Dolorum esse odio quas architecto sint</li>
+            </ul>
+            <p class="text-center">
+              <a href="#" class="btn btn-secondary">Buy Now</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4  p-md-5  premıum revealTopPricing">
+          <div class="pricing">
+            <span class="icon-paw text-center d-block display-5 text-white mb-2"><img src="img/dog-paw.png"
+                alt="köpek patisi"><img src="img/dog-paw.png" class="p-2" alt="köpek patisi"></span>
+            <h3 class="text-center text-white pb text-uppercase">PREMIUM
+            </h3>
+            <div class="price text-center mb-4 ">
+              <span class="text-white"><span class="priceContent">$100</span> / year</span>
+            </div>
+            <ul class="list-unstyled ul-check text-white success mb-5">
+              <li><i class="bi bi-check2"></i>Officia quaerat eaque neque</li>
+              <li><i class="bi bi-check2"></i>Possimus aut consequuntur incidunt</li>
+              <li><i class="bi bi-check2"></i>Lorem ipsum dolor sit amet</li>
+              <li><i class="bi bi-check2"></i>Consectetur adipisicing elit</li>
+              <li class="remove"><i class="bi bi-check2"></i>Dolorum esse odio quas architecto sint</li>
+            </ul>
+            <p class="text-center">
+              <a href="#" class="btn btn-danger text-white">Buy Now</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4  p-md-5 professional revealRightPricing">
+          <div class="pricing">
+            <span class="icon-paw text-center d-block display-5 text-white mb-2"><img src="img/dog-paw.png"
+                alt="köpek patisi"><img src="img/dog-paw.png" class="p-2" alt="köpek patisi"><img src="img/dog-paw.png"
+                alt="köpek patisi"></span>
+            <h3 class="text-center text-white pb text-uppercase">professional
+            </h3>
+            <div class="price text-center mb-4 ">
+              <span class="text-white"><span class="priceContent">$200</span> / year</span>
+            </div>
+            <ul class="list-unstyled ul-check text-white success mb-5">
+              <li><i class="bi bi-check2"></i>Officia quaerat eaque neque</li>
+              <li><i class="bi bi-check2"></i>Possimus aut consequuntur incidunt</li>
+              <li><i class="bi bi-check2"></i>Lorem ipsum dolor sit amet</li>
+              <li><i class="bi bi-check2"></i>Consectetur adipisicing elit</li>
+              <li><i class="bi bi-check2"></i>Dolorum esse odio quas architecto sint</li>
+            </ul>
+            <p class="text-center">
+              <a href="#" class="btn btn-secondary text-white">Buy Now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing table end -->
+  <!--  ask questions start -->
+  <site-section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-5 askQuestionsTitle revealh2Top">
+          <h2 class="text-center text-uppercase fw-bold ">FREQUENTLY ASK QUESTIONS</h2>
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facere quia quas quod
+            at, reprehenderit eaque nam..</p>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-6 mb-5 mb-lg-0 revealLeft">
+            <img src="img/dog_5.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-5 col-lg-5 revealRight">
+            <div class="accordion accordion-flush" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Lorem, ipsum dolor.
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, deleniti perspiciatis. Eligendi,
+                    corporis animi natus laborum ab quia dicta aut asperiores ut nostrum enim, sapiente dolorem
+                    reiciendis nemo nihil. Accusamus.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Lorem ipsum dolor sit amet.
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aut, voluptas labore quas ipsam
+                    tempora voluptatem porro debitis velit sed accusamus quisquam eveniet at accusantium consectetur
+                    esse facere. Officiis, nostrum!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint veritatis iusto vero placeat
+                    laudantium nisi at nam, veniam saepe temporibus.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Lorem ipsum dolor sit.
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores aut consequatur totam
+                    consequuntur tempora.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Lorem ipsum dolor sit.
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores aut consequatur totam
+                    consequuntur tempora.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </site-section>
+  <!--  ask questions end -->
+  <!-- happy costumers start -->
+  <section class="bg-light mb-5 ">
+    <div class="container">
+      <div class="col-12 mt-5">
+        <h2 class="text-center text-uppercase fw-bold pt-5">HAPPY CUSTOMERS</h2>
+      </div>
+      <div class="wrapper ">
+        <div class="center-line">
+
+        </div>
+        <div class="row row-1 revealHappyLeft1">
+          <section>
+            <i class="icon fas fa-home "></i>
+            <div class="details">
+              <span class="title">Title of Section 1</span>
+              <span>1st Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2 revealHappyRight1">
+          <section>
+            <i class="icon fas fa-star"></i>
+            <div class="details">
+              <span class="title">Title of Section 2</span>
+              <span>2nd Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-1 revealHappyLeft2">
+          <section>
+            <i class="icon fas fa-rocket"></i>
+            <div class="details">
+              <span class="title">Title of Section 3</span>
+              <span>3rd Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2 revealHappyRight2">
+          <section>
+            <i class="icon fas fa-globe"></i>
+            <div class="details">
+              <span class="title">Title of Section 4</span>
+              <span>4th Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-1 revealHappyLeft3">
+          <section>
+            <i class="icon fas fa-paper-plane"></i>
+            <div class="details">
+              <span class="title">Title of Section 5</span>
+              <span>5th Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+        <div class="row row-2 revealHappyRight3">
+          <section>
+            <i class="icon fas fa-map-marker-alt"></i>
+            <div class="details">
+              <span class="title">Title of Section 6</span>
+              <span>6th Jan 2021</span>
+            </div>
+            <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos
+              vero sapiente voluptas debitis dicta dolore.</p>
+            <div class="bottom">
+              <i>- Someone famous</i>
+            </div>
+          </section>
+        </div>
+      </div>
+  </section>
+  <!-- happy costumers end -->
+  <!-- blog start -->
+  <section class="mySection bg-white mt-5" id="blog">
+    <div class="container">
+      <div class="col-12 mt-5 blogTitle revealh2Top">
+        <h2 class="text-center text-uppercase fw-bold ">DOGGER BLOG</h2>
+        <p class="text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+          there live the blind texts.</p>
+      </div>
+
+      <div class="container">
+        <div class="row blogContainer">
+          <div class="col-md-6 blogContent revealLeftBlog">
+            <div class="d-lg-flex">
+              <figure class="mr-4">
+                <a href="#"><img src="img/dog_5.jpg" alt="Image" 
+                    class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="#">How to make first aid for your dog when in the house</a></h3>
+                <span class="post-meta d-block">April 17, 2023</span>
+                <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, perspiciatis
+                  debitis. Cumque nihil, laborum eos possimus quod dolor.</p>
+                  <p class=" button"><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 blogContent revealRightBlog">
+            <div class="d-lg-flex">
+              <figure class="mr-4">
+                <a href="#"><img src="img/dog_6.jpg" alt="Image" 
+                    class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text ">
+                <h3><a href="#">How to make first aid for your dog when in the house</a></h3>
+                <span class="post-meta  d-block">April 17, 2023</span>
+                <p class="text-dark ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, perspiciatis
+                  debitis. Cumque nihil, laborum eos possimus quod dolor.</p>
+                <p class="button"><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 revealLeftBlog">
+            <div class="d-lg-flex">
+              <figure class="mr-4">
+                <a href="#"><img src="img/dog_4.jpg" alt="Image" 
+                    class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="#">How to make first aid for your dog when in the house</a></h3>
+                <span class="post-meta d-block ">April 17, 2023</span>
+                <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, perspiciatis
+                  debitis. Cumque nihil, laborum eos possimus quod dolor.</p>
+                <p class="button"><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 blogLastImg revealRightBlog">
+            <div class="d-lg-flex">
+              <figure class="mr-4">
+                <a href="#"><img src="img/dog_2.jpg" alt="Image" 
+                    class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="#">How to make first aid for your dog when in the house</a></h3>
+                <span class="post-meta d-block">April 17, 2023</span>
+                <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, perspiciatis
+                  debitis. Cumque nihil, laborum eos possimus quod dolor.</p>
+                <p class="button"><a href="#">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog end -->
+  <!-- services start -->
+  <section class="mySection bg-light mt-5" id="services">
+    <div class="container ">
+      <div class="col-12 mt-5 servicesTitle revealh2Top">
+        <h2 class="text-center text-uppercase fw-bold ">OUR SERVICES</h2>
+        <p class="text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+          there live the blind texts.</p>
+      </div>
+      <div class="row servicesGeneral">
+        <div class="col-md-6 mb-4 col-lg-4 revealLeftTopService">
+          <div class="block-service">
+            <span class=" d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3 class="text-">Dog Checkup</h3>
+            <p >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4 revealTopService">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3>Dog Dermatology</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4 revealRightTopService">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3>For Strong Teeth</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4 revealLeftBottomService">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3>Dog First Aid</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4 revealBottomService">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3>Dog Dryer</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-4 revealRightBottomService">
+          <div class="block_service">
+            <span class="icon-paw d-block display-3 text-primary mb-3"><img src="img/heart.png" alt="paw icon"></span>
+            <h3>Expert Veterinarian</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact start -->
+  <section class="mySection bg-white mt-5" id="contact">
+    <div class="col-12 mt-5 contactTitle revealh2Top">
+      <h2 class="text-center text-uppercase fw-bold pt-4 ">Contact us</h2>
+      <p class="text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+        there live the blind texts.</p>
+    </div>
+    <div class="container containerContact">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Trukey</div>
+            <div class="text-two">Lorem, ipsum.</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">0123 456 7890</div>
+            <div class="text-two">0123 456 7890</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">Mekinci929@gmail.com</div>
+            <div class="text-two">lorem@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from
+            here. It's my pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact end -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row rowFooter">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">About Us</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum
+                autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+            <div class="col-md-3 ml-auto Links">
+              <h2 class="footer-heading mb-4">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#about" class="smoothscroll">About Us</a></li>
+                <li><a href="#pricing" class="smoothscroll">Pricing</a></li>
+                <li><a href="#services" class="smoothscroll">Services</a></li>
+                <li><a href="#blog" class="smoothscroll">Blog</a></li>
+                <li><a href="#contact" class="smoothscroll">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <a href="#" class="pl-0 pr-3 social-link"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="pl-3 pr-3 social-link"><i class="bi bi-github"></i></a>
+              <a href="#" class="pl-3 pr-3 social-link"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="pl-3 pr-3 social-link"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="footer-heading mb-4 lastTitle">Subscribe Newsletter</h2>
+          <form action="#" method="post" class="footer-subscribe">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control border-white text-white bg-transparent"
+                placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn text-black" type="button" id="button-addon2">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center text-light">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+            <p>
+              Copyright ©
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <strong>by Muhammet Izzet Ekinci</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/style.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  
+
+  <script>
+window.sr=ScrollReveal();
+// home start
+sr.reveal(".revealLeft" ,{
+    origin: "left",
+    duration:1500,
+    distance:"1rem",
+    delay:400
+})
+
+sr.reveal(".revealRight" ,{
+    origin: "right",
+    duration:1500,
+    distance:"1rem",
+    delay:600
+})
+// home end
+
+// about start
+sr.reveal(".revealh2Top" ,{
+    origin: "top",
+    duration:1500,
+    distance:"1rem",
+    delay:600
+})
+
+sr.reveal(".revealpTop" ,{
+    origin: "top",
+    duration:1500,
+    distance:"1rem",
+    delay:500
+})
+// about end
+// pricing start
+sr.reveal(".revealLeftPricing" ,{
+    origin: "left",
+    duration:1500,
+    distance:"1rem",
+    delay:400
+})
+sr.reveal(".revealTopPricing" ,{
+    origin: "top",
+    duration:1500,
+    distance:"1rem",
+    delay:2000
+})
+sr.reveal(".revealRightPricing" ,{
+    origin: "right",
+    duration:1500,
+    distance:"1rem",
+    delay:400
+})
+// pricing end
+// happy costumers start
+sr.reveal(".revealLeftTopService" ,{
+    origin: "left-top",
+    duration:2000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealHappyRight1" ,{
+    origin: "right",
+    duration:4000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealHappyLeft2" ,{
+    origin: "left",
+    duration:6000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealHappyRight2" ,{
+    origin: "right",
+    duration:8000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealHappyLeft3" ,{
+    origin: "left",
+    duration:10000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealHappyRight3" ,{
+    origin: "right",
+    duration:12000,
+    distance:"1rem",
+    delay:300
+})
+// happy costumers end
+// blog start
+sr.reveal(".revealLeftBlog" ,{
+    origin: "left",
+    duration:3500,
+    distance:"1rem",
+    delay:300
+})
+
+sr.reveal(".revealRightBlog" ,{
+    origin: "right",
+    duration:3500,
+    distance:"1rem",
+    delay:300
+})
+// blog end
+// services start
+sr.reveal(".revealLeftTopService" ,{
+    origin: "left",
+    duration:2000,
+    distance:"1rem",
+    delay:300
+})
+
+sr.reveal(".revealTopService" ,{
+    origin: "top",
+    duration:3000,
+    distance:"1rem",
+    delay:300
+})
+sr.reveal(".revealRightTopService" ,{
+    origin: "right",
+    duration:4000,
+    distance:"1rem",
+    delay:300
+})
+
+sr.reveal(".revealLeftBottomService" ,{
+    origin: "left",
+    duration:5000,
+    distance:"1rem",
+    delay:300
+})
+
+sr.reveal(".revealBottomService" ,{
+    origin: "bottom",
+    duration:6000,
+    distance:"1rem",
+    delay:300
+})
+
+sr.reveal(".revealRightBottomService" ,{
+    origin: "right",
+    duration:7000,
+    distance:"1rem",
+    delay:300
+})
+
+
+// services end
+
+ScrollReveal().reveal('.containerContact', { scale: 0.45  });
+ScrollReveal().reveal('.containerContact', { delay:2500 });
+
+
+containerContact
+content
+</script>
+  
+</body>
+</html>
